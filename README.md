@@ -8,7 +8,7 @@
 ```js
 // ==UserScript==
 // @name         Flash播放补丁
-// @namespace    https://genouka.rr.nu
+// @namespace    https://genouka.top
 // @author       Genouka
 // @version      0.1
 // @run-at       document-start
