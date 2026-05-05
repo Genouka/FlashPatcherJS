@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Flash播放补丁
 // @namespace    https://genouka.top
-// @author       Genouka
-// @version      0.1
+// @author       秋冥散雨_GenOuka
+// @version      0.2
 // @run-at       document-start
 // @match        *
 // @grant        GM_getValue
@@ -40,7 +40,7 @@ var loadJS=function(url, callback) {
   document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-loadJS("//unpkg.zhimg.com/@ruffle-rs/ruffle", function() {
+loadJS("//unpkg.com/@ruffle-rs/ruffle", function() {
   
 });
 
